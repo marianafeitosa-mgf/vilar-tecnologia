@@ -1,0 +1,63 @@
+===============================================================================
+ VILAR TECNOLOGIA - GUIA DE IDENTIDADE VISUAL (proposta)
+===============================================================================
+
+1. O QUE APRENDER COM AS REFERÊNCIAS
+-------------------------------------------------------------------------------
+PwC: cor de destaque forte e única (laranja), muito espaço em branco,
+     títulos grandes e diretos, fotos humanas e reais.
+Deloitte: base preta/branca com UM verde de destaque, layout sóbrio, foco em
+     "insights" (conteúdo), tipografia limpa e hierarquia muito clara.
+Em comum: poucas cores, 1 cor de destaque usada com disciplina, fotografia de
+     pessoas, linguagem objetiva e sensação de solidez/autoridade.
+Regra de ouro: 60% neutros (branco/cinza) - 30% cor institucional - 10% destaque.
+
+
+2. PALETA PROVISÓRIA EM USO (troque na seção 0 do style.css)
+-------------------------------------------------------------------------------
+--color-primary        #0B1F3A  Azul-marinho  -> confiança, solidez
+--color-accent         #0F766E  Verde-petróleo -> inovação (textos/links)
+--color-accent-bright  #14B8A6  Verde-água    -> destaques em fundo escuro
+--color-surface        #F4F6F9  Cinza-claro   -> fundos alternados
+--color-text           #0F172A  Quase preto   -> leitura confortável
+Ao aplicar a paleta oficial, valide o contraste em https://webaim.org/resources/contrastchecker/
+(mínimo 4.5:1 para texto normal e 3:1 para títulos grandes).
+
+
+3. TRÊS VERSÕES DE IDENTIDADE PARA AVALIAR
+-------------------------------------------------------------------------------
+VERSÃO A - "Confiança Corporativa" (atual, mais próxima da PwC/Deloitte)
+  Marinho + verde-petróleo, fotos de equipe, layout sóbrio.
+  Transmite: solidez, segurança, credibilidade. Ideal para médias e grandes empresas.
+
+VERSÃO B - "Tecnologia Humana"
+  Branco predominante + azul-royal #1D4ED8 + coral #F97316 como destaque.
+  Fotos com pessoas sorrindo, cantos mais arredondados (radius 16-24px).
+  Transmite: proximidade, inovação acessível. Ideal para PMEs e startups.
+
+VERSÃO C - "Premium Minimalista"
+  Preto #0A0A0A + off-white #FAFAF7 + dourado discreto #B08D57.
+  Tipografia grande, muito espaço vazio, poucas imagens em P&B.
+  Transmite: exclusividade e alto valor agregado. Ideal para consultoria boutique.
+
+
+4. TIPOGRAFIA
+-------------------------------------------------------------------------------
+Atual: fontes do sistema (carregamento instantâneo, ótima legibilidade).
+Sugestões gratuitas (Google Fonts), no máximo 2 famílias:
+  - Títulos: "Manrope" ou "Plus Jakarta Sans"  |  Textos: "Inter" ou "Source Sans 3"
+Para trocar: hospede os arquivos .woff2 em assets/fonts/ e altere --font-sans.
+
+
+5. DICAS PARA UMA EXPERIÊNCIA QUE TRANSMITA OS VALORES DO NEGÓCIO
+-------------------------------------------------------------------------------
+- Prova social: logos de clientes, cases com números reais e depoimentos com foto.
+- Fotos próprias da equipe valem mais que bancos de imagem (humanizam a marca).
+- Um único CTA principal repetido ("Solicitar orçamento") reduz a indecisão.
+- Selos de confiança: "Adequado à LGPD", certificações (ISO 27001, parceiros cloud).
+- Página de Cases e Blog de Insights fortalecem autoridade e SEO (como a Deloitte).
+- Tom de voz: claro, consultivo e sem jargões; frases curtas e voz ativa.
+- Ícones: traço fino e consistente (estilo Lucide), sempre na cor de destaque.
+- Botão de WhatsApp flutuante pode aumentar a conversão no público brasileiro.
+- Microinterações discretas (hover, foco) dão sensação de qualidade sem distrair.
+===============================================================================

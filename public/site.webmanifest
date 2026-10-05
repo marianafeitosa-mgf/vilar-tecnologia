@@ -1,0 +1,11 @@
+{
+  "name": "Vilar Tecnologia",
+  "short_name": "Vilar",
+  "description": "Consultoria em tecnologia, dados e transformação digital.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b1f3a",
+  "icons": [{ "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
